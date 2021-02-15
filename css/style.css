@@ -1,0 +1,32 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 127, 80, 0.75);
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#webcam-container {
+    position: absolute;
+    top: 60%;
+    opacity: 80%;
+    left: 48%;    
+}
+
+#posture-container {
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+
+div#label-container {
+    padding: 10px;
+    background-color: rgb(255, 255, 255,0.3);
+    margin-right: 85%;
+}
